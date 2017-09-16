@@ -1,16 +1,16 @@
-#Skittles
+# Skittles
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Skittles-brightgreen.svg?style=flat)](http://android-arsenal.com/details/1/2076) [![Build Status](https://travis-ci.org/aashrairavooru/Skittles.svg)](https://travis-ci.org/aashrairavooru/Skittles)  [ ![Jcenter](https://img.shields.io/github/release/aashrairavooru/Skittles.svg?label=Jcenter) ](https://bintray.com/aashrairavooru/maven/Skittles/_latestVersion)
 [
 ![JitPackv](https://img.shields.io/github/release/aashrairavooru/Skittles.svg?label=JitPack)](https://jitpack.io/#aashrairavooru/Skittles/)
 
-A simple,clean api for adding PushBullet style skittles to your app for more material design glory.This library uses the <a href="https://developer.android.com/reference/android/support/design/widget/FloatingActionButton.html">FloatingActionButton</a> provided in the android design support library
+A simple, clean API for adding PushBullet style skittles to your app for more Material Design glory. This library uses the <a href="https://developer.android.com/reference/android/support/design/widget/FloatingActionButton.html">FloatingActionButton</a> provided in the android design support library.
 
 <img src="art/Skittle.gif" width=196 height=350/>
 <img src="art/TextSkittle.gif" width=196 height=350/>
 
-##Guide ([Sample](sample/src/main/java/snow/skittlessample/MainActivity.java))
+## Guide ([Sample](sample/src/main/java/snow/skittlessample/MainActivity.java))
 
-####XML attributes support:
+#### XML attributes support:
 ```xml
 <attr name="mainSkittleColor" format="color|reference" />
 <attr name="mainSkittleIcon" format="integer" />
@@ -143,7 +143,7 @@ Snackbar.make(skittleLayout.getSkittleContainer(), "Skittle Pressed", Snackbar.L
 .show();
 ```
 
-##Underlay Support
+## Underlay Support
 The library supports three modes:
 - none
 - standard
@@ -153,7 +153,7 @@ The library supports three modes:
 <img src="art/SampleBlur.gif" width=196 height=350/>
 
 
-##Gradle
+## Gradle
 ```groovy
 dependencies{
 compile 'com.rlj.library:skittles:2.1.1'
@@ -162,10 +162,10 @@ compile 'com.rlj.library:skittles:2.1.1'
 
 See the **[Sample](sample/src/main/java/snow/skittlessample/MainActivity.java)** and **[JavaDoc](http://aashrairavooru.github.io/Skittles/)** for further guidance
 
-##Upcoming
+## Upcoming
 + Better support for animations
 + Option for adding skittles by xml (inspired by Navigation View)
 
 
-#Taste the rainbow
+# Taste the rainbow
 ![Skittles](art/Taste the rainbow.jpg)
